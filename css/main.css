@@ -465,4 +465,7 @@ h1 {
   font-weight: bold;
   display: inline-block;
   transform: translate(-5rem, -10rem);
+}
+.nav__toggle:checkbox ~ .nav__dropl {
+  display: block;
 }/*# sourceMappingURL=main.css.map */

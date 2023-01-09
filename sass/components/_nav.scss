@@ -56,4 +56,8 @@
     display: inline-block;
     transform: translate(-5rem, -10rem);
   }
+
+  &__toggle:checkbox ~ &__dropl {
+    display: block;
+  }
 }
