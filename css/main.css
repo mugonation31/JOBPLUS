@@ -466,6 +466,38 @@ h1 {
   display: inline-block;
   transform: translate(-5rem, -10rem);
 }
-.nav__toggle:checkbox ~ .nav__dropl {
+.nav__toggle:checked ~ .nav__dropl {
   display: block;
+}
+.nav__toggle:checked ~ .nav__dropl li {
+  padding: 15rem 10rem;
+  border-bottom: 1px var(--delta) solid;
+}
+@media (min-width: 767px) {
+  .nav {
+    grid-template-columns: 1fr -webkit-min-content minmax(590rem, auto) -webkit-min-content 1fr;
+    grid-template-columns: 1fr min-content minmax(590rem, auto) min-content 1fr;
+  }
+}
+.nav__lblock {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+.nav__dropl {
+  grid-row: 1/2;
+  grid-column: 3/4;
+  display: flex;
+  align-items: center;
+  background-color: var(--alpha);
+  color: var(--delta);
+}
+.nav__dropl li {
+  margin-left: 20rem;
+}
+.nav__icons {
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
+.nav__hamburger {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
