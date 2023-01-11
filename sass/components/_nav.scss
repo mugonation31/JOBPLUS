@@ -59,7 +59,6 @@
 
   &__toggle:checked ~ &__dropl {
     display: block;
-
     li {
       padding: 15rem 10rem;
       border-bottom: 1px var(--delta) solid;
@@ -68,32 +67,32 @@
 
   @include respond-to("small") {
     grid-template-columns: 1fr min-content minmax(590rem, auto) min-content 1fr;
-  }
 
-  &__lblock {
-    grid-row: 1 / 2;
-    grid-column: 2 / 3;
-  }
-
-  &__dropl {
-    grid-row: 1 / 2;
-    grid-column: 3 / 4;
-
-    display: flex; // makes it visible on screen and allows it to float.
-    align-items: center;
-    background-color: var(--alpha);
-    color: var(--delta);
-    li {
-      margin-left: 20rem;
+    &__lblock {
+      grid-row: 1 / 2;
+      grid-column: 2 / 3;
     }
-  }
 
-  &__icons {
-    grid-row: 1 / 2;
-    grid-column: 4 / 5;
-  }
+    &__dropl {
+      grid-row: 1 / 2;
+      grid-column: 3 / 4;
 
-  &__hamburger {
-    display: none;
+      display: flex; // makes it visible on screen and allows it to float.
+      align-items: center;
+      background-color: var(--alpha);
+      color: var(--delta);
+      li {
+        margin-left: 20rem;
+      }
+    }
+
+    &__icons {
+      grid-row: 1 / 2;
+      grid-column: 4 / 5;
+    }
+
+    &__hamburger {
+      display: none;
+    }
   }
 }
