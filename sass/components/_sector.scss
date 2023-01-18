@@ -37,7 +37,7 @@
     grid-column: 1 / 2;
     align-self: center;
 
-    z-index: 1;
+    z-index: 0; /* Changed z-index form 0 to one to ensure this stays behind Cookie and Footer */
     font-family: "Open Sans ExtraBold";
     color: var(--light);
     font-size: 26rem;

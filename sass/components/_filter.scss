@@ -3,7 +3,7 @@
 
   @include respond-to("small") {
     display: block;
-    margin-top: 20rem;
+    margin-right: 20rem;
 
     &__links {
       background-color: var(--light);
