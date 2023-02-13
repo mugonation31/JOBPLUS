@@ -1,0 +1,15 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+
+  background-color: var(--gamma);
+  color: var(--delta);
+  font-size: 11rem;
+  padding: 14rem;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
