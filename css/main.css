@@ -697,8 +697,6 @@ h1 {
 }
 
 .footer {
-  display: grid;
-  grid-template-columns: 1fr min-content;
   background-color: var(--gamma);
   color: var(--delta);
   font-size: 11rem;
